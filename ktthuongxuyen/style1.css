@@ -4,12 +4,14 @@
 }
 
 .layout {
+    position: relative;    
     width: 1920px;
     height: 1080px;
     background: #E7E6E6;
 
 }
 .layout_nw {
+    position: absolute;
     width: 992px;
     height: 1080px;
     left: 464px;
@@ -17,12 +19,14 @@
     display: flex;    
 }
 .layout1{
+    position:absolute;
     width: 992px;
     height: 90px;
     left: 464px;
     background: #75FF35;
 }
 .layout2 {
+    position: absolute;
     width: 300px;
     height: 990px;
     top: 90px;
@@ -32,6 +36,7 @@
 
 }
 .layout3{
+    position: absolute;
     width: 320px;
     height: 300px;
     top: 90px;
@@ -40,6 +45,7 @@
 
 }
 .layout4{
+    position: absolute;
     width: 372px;
     height: 300px;
     top: 90px;
@@ -47,6 +53,7 @@
     background: #F0D537;
 }
 .layout5{
+    position: absolute;
     width: 692px;
     height: 300px;
     top: 390px;
@@ -55,6 +62,7 @@
 
 }
 .layout6{
+    position: absolute;
     width: 692px;
     height: 300px;
     top: 690px;
@@ -63,6 +71,7 @@
 
 }
 .layout7{
+    position: absolute;
     width: 692px;
     height: 90px;
     top: 990px;
