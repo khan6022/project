@@ -8,15 +8,13 @@
     width: 1920px;
     height: 1080px;
     background: #E7E6E6;
-
+    display: block;
 }
 .layout_nw {
-    position: absolute;
     width: 992px;
     height: 1080px;
-    left: 464px;
     background: #FFFFFF;
-    display: flex;    
+ 
 }
 .layout1{
     position:absolute;
@@ -32,7 +30,6 @@
     top: 90px;
     left: 1156px;
     background: #63B796;
-    justify-content:end;
 
 }
 .layout3{
