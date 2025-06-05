@@ -1,0 +1,41 @@
+body {
+    font-family: Nunito, sans-serif;
+    background-color: #eff8ff;
+    font-size: 12px;
+}
+table {
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 4px 4px 0px 0px;
+    overflow: hidden;
+}
+table thead tr {
+    background-color: #00987a !important;
+    border: none;
+}
+th {
+    color: white;
+    text-align: left;
+}
+table,tr {
+    border: 1px solid gray;
+    cursor: pointer;
+    transition: 0.25s color;    
+}
+th,td {
+    width: 60px;
+    max-width: 60px;
+    max-height: 60px;
+    padding: 4px 16px;
+}
+tr:hover {
+    background-color: rgb(231, 229, 229);
+    color: #00987a;
+    font-weight: 600;
+}
+tr.first-child {
+    border-top: none;
+}
+tr.last-child {
+    border-bottom: 2px solid #00987a;
+}
